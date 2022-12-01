@@ -70,7 +70,7 @@ sudo apt-get --purge awscli
 
 
 what is the difference between purge and remove?
-> apt-get remove (removes) the package called awscli but keep the configuration files.
+> apt-get remove (removes) the package but keep the configuration files.
 
 
 >apt-get purge (removes) package and configuration files too
@@ -115,3 +115,17 @@ here,
 
 ## CentOs Package Management
 https://access.redhat.com/articles/yum-cheat-sheet
+
+### To list the contents of a package,
+```
+dpkg -L {package name}
+```
+example,
+```
+dpkg -L awscli
+```
+
+nodejs application installation:
+``` 
+https://linuxhint.com/install-nodejs-ubuntu-getting-started/
+```

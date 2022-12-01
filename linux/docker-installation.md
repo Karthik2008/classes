@@ -15,7 +15,9 @@
 4. Check the Os Version, run:
     ```
     > cat /etc/*se
+    
     NAME="Ubuntu"
     VERSION_ID="22.04"
 
 ## Package Management On Ubuntu
+https://github.com/Karthik2008/classes/blob/main/linux/file-management.md
